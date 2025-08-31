@@ -112,6 +112,15 @@ header .menu-icon div {
     padding-bottom: 150px;
 }
 
+.hero .rightside {
+    text-align: center;
+}
+
+.hero .rightside img {
+    width: auto;
+    height: 600px;
+}
+
 .hero h1 {
     font-family: 'Calistoga';
     font-size: 72px;
@@ -123,6 +132,20 @@ header .menu-icon div {
     font-size: 20px;
     line-height: 26px;
     margin: 40px 0;
+}
+
+.hero .button {
+    display: inline-block;
+    background-color: #FE6A0F;
+    font-weight: 500;
+    color: #FFF;
+    padding: 15px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero .button:hover {
+    opacity: 0.8;
 }
 
 .search {
@@ -209,4 +232,55 @@ header .menu-icon div {
 
 .product-item .photo img {
     max-width: 100%;
+}
+
+.product-item .info {
+    background-color: #1F1F1F;
+    padding: 60px 30px 30px 30px;
+    margin-top: -50px;
+}
+
+.product-item .product-category {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-item .product-name {
+    font-family: 'Calistoga';
+    font-size: 32px;
+    color: #FFF;
+    margin: 10px 0;
+}
+
+.product-item .product-price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FE6A0F;
+}
+
+footer {
+    background-color: #1F1F1F;
+}
+
+footer .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .copyrights {
+    font-size: 24px;
+    color: #5F5F5F;
+}
+
+footer .copyrights a {
+    color: #5F5F5F;
+    text-decoration: none;
+}
+
+footer .copyrights a:hover {
+    text-decoration: underline;
 }
